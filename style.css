@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Be Vietnam Pro, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    height: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+h1, h2, h3 {
+    font-family: "Abyssinica SIL";
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.slogan {
+    font-size: 1.25rem;
+    font-weight: 100;
+    margin-left: 1rem;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav > ul > li {
+    list-style: none;
+}
+
+li + li {
+    padding-left: 1.75rem;
+}
+
+a {
+    color: black;
+    text-decoration-color: rgba(0, 0, 0, .25);
+    text-underline-offset: .25rem;
+    text-decoration-thickness: 1px;
+}
+
+.top-pictures {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-image {
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.position-top {
+    object-position: bottom;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    font-size: 3rem;
+    line-height: 1.2; 
+}
+
+.chevron {
+    height: 3rem;
+    position: absolute;
+    bottom: 2rem;
+}
+
+.featured-item {
+    display: flex;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.item-description {
+    width: 50%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.more-info-link {
+    background-color: black;
+    color: white;
+    padding: .5rem 1rem;
+}
+
+footer {
+    width: 100%;
+    height: 15rem;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-white {
+    height: 5rem;
+    padding-top: 2rem;
+}
+
+.njordhaven {
+    margin-top: .5rem;
+    font-size: 1.2rem;
+}
+
+footer ul {
+    display: flex;
+    padding-left: 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    color: white;
+}
