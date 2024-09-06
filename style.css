@@ -57,6 +57,7 @@ a {
 }
 
 a:hover {
+    text-decoration-color: black;
     text-underline-offset: .15rem;
 }
 
