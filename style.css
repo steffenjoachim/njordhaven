@@ -120,6 +120,13 @@ h2 {
     background-color: black;
     color: white;
     padding: .5rem 1rem;
+    text-decoration: none;
+}
+
+.more-info-link:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
 footer {
