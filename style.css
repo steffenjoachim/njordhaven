@@ -121,6 +121,7 @@ h2 {
     color: white;
     padding: .5rem 1rem;
     text-decoration: none;
+    border: 1px solid white;
 }
 
 .more-info-link:hover {
